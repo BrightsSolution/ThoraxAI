@@ -1,0 +1,10 @@
+● Pneumonia Detection: Real-Time Chest X-Ray Classification                                                  Personal Project | 2025
+• Challenge: Built a real-time system to classify pneumonia from X-ray images using a highly imbalanced medical dataset.
+• Action:
+  • Balanced the dataset via augmentation, resolving class imbalance using rotation, zoom, and flip techniques.
+  • Developed a CNN using DenseNet121 with transfer learning and trained on normalized, resized 150x150 images.
+  • Evaluated performance with ROC, confusion matrix, and metrics visualization using Seaborn and Matplotlib.
+  • Deployed the model via a custom Streamlit app with tabbed interface and CSS-styled real-time prediction UI.
+• Result:
+  • Achieved 91.4% accuracy for Normal and 99.6% for Pneumonia predictions on the test set.
+  • Delivered an accessible, scalable diagnostic tool for use in remote or non-specialist environments. [Live Demo](https://pneumonia-vs-normal-detection.streamlit.app/)
