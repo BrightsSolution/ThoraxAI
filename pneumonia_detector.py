@@ -369,10 +369,10 @@ with tab1:
     st.markdown('<div class="section-title">⚡ SYSTEM OPERATOR</div>', unsafe_allow_html=True)
     st.markdown("""
         <div class="content">
-            Hi! I’m <span class="highlight">Muhammad Umer Khan</span>, an aspiring AI/Data Scientist passionate about 
-            <span class="highlight">🤖 Natural Language Processing (NLP)</span> and 🧠 Machine Learning. 
-            Currently pursuing my Bachelor’s in Computer Science, I bring hands-on experience in developing intelligent recommendation systems, 
-            performing data analysis, and building machine learning models. 🚀
+            <span class="highlight">ThoraxAI</span> is an advanced medical diagnostic system powered by cutting-edge 
+            <span class="highlight">🤖 Artificial Intelligence</span> and 🧠 Deep Learning technologies. 
+            Built with state-of-the-art neural networks, this system provides healthcare professionals with 
+            accurate, real-time pneumonia detection capabilities for improved patient care and diagnostic efficiency. 🚀
         </div>
     """, unsafe_allow_html=True)
 
@@ -380,57 +380,57 @@ with tab1:
     st.markdown('<div class="section-title">🔬 MISSION BRIEFING</div>', unsafe_allow_html=True)
     st.markdown("""
         <div class="content">
-            Here are some of the key projects I have worked on:
+            <span class="highlight">ThoraxAI System Capabilities:</span>
             <ul>
-                <li><span class="highlight">📋 Description:</span> 
-                    Pneumonia🩻 is a life-threatening infectious disease affecting one or both lungs in humans commonly caused by bacteria called Streptococcus pneumoniae. 
-                    One in three deaths in world is caused due to pneumonia as reported by World Health Organization (WHO). 
-                    Chest X-Rays which are used to diagnose pneumonia need expert radiotherapists for evaluation. 
-                    Thus, developing an automatic system for detecting pneumonia would be beneficial for treating the 
-                    disease without any delay particularly in remote areas. Due to the success of deep learning algorithms 
-                    in analyzing medical images, Convolutional Neural Networks (CNNs) have gained much attention for disease 
-                    classification. In this work, we appraise the functionality of pre-trained CNN models 
-                    utilized as feature-extractors followed by different classifiers for the classification of abnormal and 
-                    normal chest X-Rays. We analytically determine the optimal CNN model for the purpose. 
-                    Statistical results obtained demonstrates that pretrained CNN models employed along with supervised classifier algorithms can be very beneficial in analyzing chest X-ray images, 
-                    specifically to detect Pneumonia.<br/>
+                <li><span class="highlight">🔬 Medical Diagnosis:</span> 
+                    Pneumonia is a life-threatening infectious disease affecting one or both lungs, commonly caused by bacteria called Streptococcus pneumoniae. 
+                    According to the World Health Organization (WHO), one in three deaths worldwide is caused by pneumonia. 
+                    Chest X-rays used to diagnose pneumonia require expert radiologists for evaluation. 
+                    ThoraxAI provides an automatic system for detecting pneumonia, beneficial for treating the 
+                    disease without delay, particularly in remote areas. Our advanced deep learning algorithms 
+                    analyze medical images using Convolutional Neural Networks (CNNs) for accurate disease 
+                    classification and detection.<br/>
                 </li>
-                <li><span class="highlight">🩻 Pneumonia Disease Detection:</span> 
-                    Built disease detection 🦠 model to identify diseases using pre-trained Convolutional Neural Networks (CNNs) 🧠. 
-                    The model was trained on a 
-                    <a href="https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia" target="_blank" style="color: #93c5fd; font-weight: bold;">dataset</a>
-                    of x-ray report images and is deployed for real-time predictions. 📡<br/>
+                <li><span class="highlight">🧠 AI-Powered Detection:</span> 
+                    Built with state-of-the-art disease detection models using pre-trained Convolutional Neural Networks (CNNs). 
+                    The system was trained on a comprehensive 
+                    <a href="https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia" target="_blank" style="color: #93c5fd; font-weight: bold;">chest X-ray dataset</a>
+                    and is deployed for real-time medical predictions. 📡<br/>
                     <ul>
-                        <li><span class="highlight">🤝 Steps to Reproduce:</span>
+                        <li><span class="highlight">🔬 Advanced Processing Pipeline:</span>
                             <ul>
-                                <li>Captured in a real potato farm.</li>
-                                <li>Uncontrolled environment using a high-resolution digital camera and smartphone.</li>
-                                <li>Dataset aids researchers in computer vision.</li>
+                                <li>High-resolution medical image analysis</li>
+                                <li>Automated quality assessment and validation</li>
+                                <li>Real-time diagnostic processing capabilities</li>
                             </ul>
                         </li>
-                        <li><span class="highlight">🔄 Data Preprocessing and Augmentation:</span>
+                        <li><span class="highlight">⚙️ Data Preprocessing and Augmentation:</span>
                             <ul>
-                                <li><span class="highlight">Image Cleaning:</span>
+                                <li><span class="highlight">Image Enhancement:</span>
                                     <ul>
-                                        <li>Removing noise, artifacts, and unwanted objects.</li>
+                                        <li>Advanced noise reduction and artifact removal</li>
+                                        <li>Medical image quality optimization</li>
                                     </ul>
                                 </li>
-                                <li><span class="highlight">Image Resizing:</span>
+                                <li><span class="highlight">Standardization:</span>
                                     <ul>
-                                        <li>Converting images to a consistent size for efficient processing.</li>
+                                        <li>Consistent image sizing for optimal processing</li>
+                                        <li>Medical imaging protocol compliance</li>
                                     </ul>
                                 </li>
-                                <li><span class="highlight">Image Normalization:</span>
+                                <li><span class="highlight">Normalization:</span>
                                     <ul>
-                                        <li>Adjusting pixel values to a specific range (e.g., 0-1).</li>
+                                        <li>Pixel value optimization for neural network processing</li>
+                                        <li>Medical imaging standard compliance</li>
                                     </ul>
                                 </li>
                                 <li><span class="highlight">Data Augmentation:</span>
                                     <ul>
-                                        <li>Creating new training samples by applying transformations:</li>
+                                        <li>Advanced training sample generation:</li>
                                         <ul>
-                                            <li>Rotation 🔄</li>
-                                            <li>Flipping 🔁</li>
+                                            <li>Medical image rotation 🔄</li>
+                                            <li>Intelligent image flipping 🔁</li>
+                                            <li>Contrast and brightness adjustment</li>
                                         </ul>
                                     </ul>
                                 </li>
@@ -447,9 +447,10 @@ with tab1:
     st.markdown("""
         <div class="content">
             <ul>
-                <li><span class="highlight">🔤 Languages & Libraries:</span> Python, NumPy, Pandas, Matplotlib, TensorFlow, Keras, and Scikit-Learn.</li>
-                <li><span class="highlight">⚙️ Approaches:</span> Pre-trained CNNs, Data Augmentation, Transfer Learning, and Image Preprocessing Techniques.</li>
-                <li><span class="highlight">🌐 Deployment:</span> Streamlit for building an interactive, user-friendly web-based system.</li>
+                <li><span class="highlight">🔤 Core Technologies:</span> Python, NumPy, Pandas, Matplotlib, TensorFlow, Keras, and Scikit-Learn for advanced data processing and machine learning.</li>
+                <li><span class="highlight">⚙️ AI Methodologies:</span> Pre-trained CNNs, Data Augmentation, Transfer Learning, and Advanced Image Preprocessing Techniques for optimal medical image analysis.</li>
+                <li><span class="highlight">🌐 Deployment Platform:</span> Streamlit-powered web interface providing interactive, professional medical diagnostic capabilities.</li>
+                <li><span class="highlight">🔬 Medical Standards:</span> Compliance with medical imaging protocols and healthcare data processing standards.</li>
             </ul>
         </div>
     """, unsafe_allow_html=True)
@@ -511,12 +512,3 @@ with tab2:
                 </div>
             ''', unsafe_allow_html=True)
     st.markdown('</div>', unsafe_allow_html=True)
-
-# Footer Section
-st.markdown("""
-    <div class="footer">
-        <span class="highlight">THORAX AI SYSTEM v2.0</span><br/>
-        Developed by <a href="https://portfolio-sigma-mocha-67.vercel.app" target="_blank">Muhammad Umer Khan</a><br/>
-        Powered by TensorFlow Neural Networks & Streamlit Interface ⚡
-    </div>
-""", unsafe_allow_html=True)
