@@ -290,7 +290,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **📧 Website**: https://brightssolution.com/
+- **📧 Website**: [Bright Solutions](https://brightssolution.com/)
+- **🔴 Live Demo**: [ThoraxAI](https://thoraxai.streamlit.app/)
 - **🐛 Issues**: [GitHub Issues](https://github.com/BrightsSolution/ThoraxAI/issues)
 
 ---
